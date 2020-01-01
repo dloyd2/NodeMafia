@@ -1,21 +1,16 @@
 {
-  "name": "nodemafia",
+  "name": "node_gc",
   "version": "1.0.0",
-  "description": "The classic game mafia created with node.js",
+  "description": "A group chat site using node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dloyd2/NodeMafia.git"
-  },
-  "author": "",
+  "keywords": [
+    "chat"
+  ],
+  "author": "Daniel Loyd, David Davini",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dloyd2/NodeMafia/issues"
-  },
-  "homepage": "https://github.com/dloyd2/NodeMafia#readme",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1",
